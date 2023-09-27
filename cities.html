@@ -16,7 +16,7 @@
     crossorigin="anonymous"></script>
   <style>
       body {
-        padding-bottom: 200px; /* Adjust the value to control the amount of padding */
+        padding-bottom: 200px; 
       }
     .image-container {
       display: flex;
@@ -66,11 +66,50 @@
       font-weight: bold;
       border-radius: 10px;
     }
+    .navbar {
+            border-bottom: 2px solid #0056b3;
+            font-size: xx-large;   
+        }
+        .navbar-brand {
+            color: #0d1b98; 
+            font-weight: bold; 
+        }
+        .navbar-nav .nav-link {
+            color: #257fba ; 
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #0056b3; 
+            color: #fff; 
+            
+            margin-right: auto;
+        }
   </style>
 
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light" style="background-color: #e3f2fd;>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="cities.html">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>>
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+  </nav>
   <h1>Visit Cities with Yaswanth Kanakala</h1>
   <hr>
   <div class="container">
