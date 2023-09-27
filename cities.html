@@ -15,6 +15,9 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
   <style>
+      body {
+        padding-bottom: 200px; /* Adjust the value to control the amount of padding */
+      }
     .image-container {
       display: flex;
       justify-content: space-between;
@@ -38,29 +41,31 @@
       max-width: 100px;
       height: auto;
     }
+
     .table-custom {
-            background-color: #f8f9fa; 
-            border: 2px solid #343a40; 
-        }
+      background-color: #f8f9fa;
+      border: 2px solid #343a40;
+    }
+
     .table-custom .table-primary {
-            background-color: #06274a;
-            color: #fff; 
-        }
-        .table-custom .table-success {
-            background-color: #28a745; 
-            color: #fff; 
-        }
-        .btn-group-label {
-            font-weight: bold;
-            margin-right: 10px;
-        }
+      background-color: #06274a;
+      color: #fff;
+    }
 
-        .btn-custom {
-            font-weight: bold;
-            border-radius: 10px;
-        } 
+    .table-custom .table-success {
+      background-color: #28a745;
+      color: #fff;
+    }
 
-    
+    .btn-group-label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .btn-custom {
+      font-weight: bold;
+      border-radius: 10px;
+    }
   </style>
 
 </head>
@@ -103,62 +108,63 @@
     <img class="img-thumbnail float-end" src="LONDON.jpeg" alt="LONDON.jpeg">
   </div>
 
-      <div class="container">
-          <table class="table table-bordered table-striped table-hover table-custom">
-              <caption>List of Letters, Cities, Rivers, and Trees</caption>
-              <thead class="table-primary">
-                  <tr>
-                      <th scope="col">Letter</th>
-                      <th scope="col">City</th>
-                      <th scope="col">River</th>
-                      <th scope="col">Tree</th>
-                  </tr>
-              </thead>
-              <tbody class="table-warning">
-                  <tr class="table-danger">
-                      <th scope="row">K</th>
-                      <td>Kolkata</td>
-                      <td>Krishna</td>
-                      <td>Kiwi Tree</td>
-                  </tr>
-                  <tr class="table-light">
-                      <th scope="row">A</th>
-                      <td>Amsterdam</td>
-                      <td>Amazon</td>
-                      <td>Apple Tree</td>
-                  </tr>
-                  <tr class="table-success">
-                      <th scope="row">N</th>
-                      <td>New York</td>
-                      <td>Nile</td>
-                      <td>Neem Tree</td>
-                  </tr>
-                  <tr class="table-info">
-                      <th scope="row">L</th>
-                      <td>London</td>
-                      <td>Lafayette</td>
-                      <td>Logan Tree</td>
-                  </tr>
-                  <tr class="table-secondary">
-                      <th scope="row">T</th>
-                      <td>Tokyo</td>
-                      <td>Tennessee River</td>
-                      <td>Teak Tree</td>
-                  </tr>
-                  <tr class="table-dark">  
-                      <th scope="row">H</th>
-                      <td>Houston</td>
-                      <td>Hudson River</td>
-                      <td>Hibiscus Tree</td>
-                  </tr>
-              </tbody>
-          </table>
-      </div>
-      <br>
-      <h3> Buttons and Groups.</h3><hr>
+  <div class="container">
+    <table class="table table-bordered table-striped table-hover table-custom">
+      <caption>List of Letters, Cities, Rivers, and Trees</caption>
+      <thead class="table-primary">
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">City</th>
+          <th scope="col">River</th>
+          <th scope="col">Tree</th>
+        </tr>
+      </thead>
+      <tbody class="table-warning">
+        <tr class="table-danger">
+          <th scope="row">K</th>
+          <td>Kolkata</td>
+          <td>Krishna</td>
+          <td>Kiwi Tree</td>
+        </tr>
+        <tr class="table-light">
+          <th scope="row">A</th>
+          <td>Amsterdam</td>
+          <td>Amazon</td>
+          <td>Apple Tree</td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">N</th>
+          <td>New York</td>
+          <td>Nile</td>
+          <td>Neem Tree</td>
+        </tr>
+        <tr class="table-info">
+          <th scope="row">L</th>
+          <td>London</td>
+          <td>Lafayette</td>
+          <td>Logan Tree</td>
+        </tr>
+        <tr class="table-secondary">
+          <th scope="row">T</th>
+          <td>Tokyo</td>
+          <td>Tennessee River</td>
+          <td>Teak Tree</td>
+        </tr>
+        <tr class="table-dark">
+          <th scope="row">H</th>
+          <td>Houston</td>
+          <td>Hudson River</td>
+          <td>Hibiscus Tree</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <h3> Buttons and Groups.</h3>
+  <hr>
 
-      <div class="container mt-4">
-            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="container mt-4">
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
       <div class="btn-group mt-2" role="group" aria-label="First group">
         <button type="button" class="btn btn-custom btn-success">K</button>
         <button type="button" class="btn btn-custom btn-success">A</button>
@@ -174,8 +180,17 @@
         <button type="button" class="btn btn-custom btn-danger">P</button>
       </div>
     </div>
+  </div>
 
-      </div>
+  <div class="dropdown" Style="position: relative; display: inline-block;">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+    </div>
+  </div>
 
 </body>
 
