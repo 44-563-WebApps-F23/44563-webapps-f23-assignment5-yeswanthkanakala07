@@ -38,6 +38,20 @@
       max-width: 100px;
       height: auto;
     }
+    .table-custom {
+            background-color: #f8f9fa; 
+            border: 2px solid #343a40; 
+        }
+    .table-custom .table-primary {
+            background-color: #06274a;
+            color: #fff; 
+        }
+        .table-custom .table-success {
+            background-color: #28a745; 
+            color: #fff; 
+        }
+
+    
   </style>
 
 </head>
@@ -79,6 +93,58 @@
     <img class="img-thumbnail mx-auto d-block " src="AMSTERDAM.jpeg" alt="AMSTERDAM.jpeg">
     <img class="img-thumbnail float-end" src="LONDON.jpeg" alt="LONDON.jpeg">
   </div>
+
+      <div class="container">
+          <table class="table table-bordered table-striped table-hover table-custom">
+              <caption>List of Letters, Cities, Rivers, and Trees</caption>
+              <thead class="table-primary">
+                  <tr>
+                      <th scope="col">Letter</th>
+                      <th scope="col">City</th>
+                      <th scope="col">River</th>
+                      <th scope="col">Tree</th>
+                  </tr>
+              </thead>
+              <tbody class="table-warning">
+                  <tr class="table-danger">
+                      <th scope="row">K</th>
+                      <td>Kolkata</td>
+                      <td>Krishna</td>
+                      <td>Kiwi Tree</td>
+                  </tr>
+                  <tr class="table-light">
+                      <th scope="row">A</th>
+                      <td>Amsterdam</td>
+                      <td>Amazon</td>
+                      <td>Apple Tree</td>
+                  </tr>
+                  <tr class="table-success">
+                      <th scope="row">N</th>
+                      <td>New York</td>
+                      <td>Nile</td>
+                      <td>Neem Tree</td>
+                  </tr>
+                  <tr class="table-info">
+                      <th scope="row">L</th>
+                      <td>London</td>
+                      <td>Lafayette</td>
+                      <td>Logan Tree</td>
+                  </tr>
+                  <tr class="table-secondary">
+                      <th scope="row">T</th>
+                      <td>Tokyo</td>
+                      <td>Tennessee River</td>
+                      <td>Teak Tree</td>
+                  </tr>
+                  <tr class="table-dark">  
+                      <th scope="row">H</th>
+                      <td>Houston</td>
+                      <td>Hudson River</td>
+                      <td>Hibiscus Tree</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
 
 </body>
 
