@@ -15,9 +15,10 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
   <style>
-      body {
-        padding-bottom: 200px; 
-      }
+    body {
+      padding-bottom: 200px;
+    }
+
     .image-container {
       display: flex;
       justify-content: space-between;
@@ -66,26 +67,29 @@
       font-weight: bold;
       border-radius: 10px;
     }
-    .navbar {
-            border-bottom: 2px solid #0056b3;
-            font-size: xx-large;   
-        }
-        .navbar-brand {
-            color: #0d1b98; 
-            font-weight: bold; 
-        }
-        .navbar-nav .nav-link {
-            color: #257fba ; 
-            font-weight: bold;
-            transition: background-color 0.3s, color 0.3s; 
-        }
 
-        .navbar-nav .nav-link:hover {
-            background-color: #0056b3; 
-            color: #fff; 
-            
-            margin-right: auto;
-        }
+    .navbar {
+      border-bottom: 2px solid #0056b3;
+      font-size: xx-large;
+    }
+
+    .navbar-brand {
+      color: #0d1b98;
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+      color: #257fba;
+      font-weight: bold;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #0056b3;
+      color: #fff;
+
+      margin-right: auto;
+    }
   </style>
 
 </head>
@@ -94,19 +98,20 @@
   <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container fluid">
       <a class="navbar-brand" href="cities.html">A Few Cities</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="basic.html">Basic</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="advanced.html">Advanced</a>
-            </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
         </ul>
-    </div>
+      </div>
     </div>
   </nav>
   <h1>Visit Cities with Yaswanth Kanakala</h1>
@@ -220,35 +225,69 @@
     </div>
   </div><br><br><br><br><br><br><br><br><br><br>
 
-  <div class="dropdown" Style="position: relative; display: inline-block;">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown
+  <div class="dropdown" Style="position:relative; display: inline-block;">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">
+      Dropdown
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
-        <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+      <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
     </div>
   </div><br><br><br><br><br><br><br><br><br><br>
   <div class="container">
     <form action="">
-        <div class="form-group">
-            <label for="Email" class="form-label">Email address :</label>
-            <input type="email" class="form-control" id="Email" placeholder="Enter Your Email Address"  
-            aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="form-group">
-            <label for="City" class="form-label">City :</label>
-            <input type="text" class="form-control" id="CityInput" 
-            placeholder="Enter Your City">
-        </div><br>
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="Check">
-            <label class="form-check-label" for="Check">Sign up for newsletter?</label>
-        </div>
-        <button class="btn btn-primary" type="submit">Submit</button>
+      <div class="form-group">
+        <label for="Email" class="form-label">Email address :</label>
+        <input type="email" class="form-control" id="Email" placeholder="Enter Your Email Address"
+          aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label for="City" class="form-label">City :</label>
+        <input type="text" class="form-control" id="CityInput" placeholder="Enter Your City">
+      </div><br>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="Check">
+        <label class="form-check-label" for="Check">Sign up for newsletter?</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
     </form>
+  </div><br><br><br><br><br><br>
+  <div class="row">
+    <div class="card" style="width: 24rem; margin-left: 20%;">
+      <img src="KOLKATA.jpg" class="card-img-top" alt="grapevines">
+      <div class="card-body">
+        <h5 class="card-title">Kolkata</h5>
+        <p class="card-text">Kolkata (formerly Calcutta) is the capital of India's West Bengal state. Founded as an East
+          India Company trading post, it was India's capital under the British Raj from 1773–1911. Today it’s known for
+          its grand colonial architecture, art galleries and cultural festivals</p>
+        <a href="https://en.wikipedia.org/wiki/Kolkata" class="btn btn-primary">About</a>
+      </div>
+    </div>
+    <div class="card" style="width: 24rem;align-items: center;">
+      <img src="AMSTERDAM.jpeg" class="card-img-top" alt="NorfolkIslandPine">
+      <div class="card-body">
+        <h5 class="card-title">Amsterdam</h5>
+        <p class="card-text">Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal
+          system and narrow houses with gabled facades, legacies of the city’s 17th-century Golden Age.</p>
+        <a href="https://en.wikipedia.org/wiki/Amsterdam" class="btn btn-primary">About</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 24rem;align-items: center;">
+      <img src="LONDON.jpeg" class="card-img-top" alt="NorfolkIslandPine">
+      <div class="card-body">
+        <h5 class="card-title">LONDON</h5>
+        <p class="card-text">London, the capital of England and the United Kingdom, is a 21st-century city with history
+          stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’
+          clock tower and Westminster Abbey, site of British monarch coronations.</p>
+        <a href="https://en.wikipedia.org/wiki/London" class="btn btn-primary">About</a>
+      </div>
+    </div>
   </div>
 
+
 </body>
+
 </html>
